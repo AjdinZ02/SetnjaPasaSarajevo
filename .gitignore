@@ -1,0 +1,84 @@
+#####################################
+# GENERAL
+#####################################
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+
+#####################################
+# VISUAL STUDIO / .NET
+#####################################
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.lscache
+
+#####################################
+# FLUTTER / DART
+#####################################
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+#####################################
+# ANDROID
+#####################################
+android/.gradle/
+android/app/build/
+
+#####################################
+# IOS
+#####################################
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+#####################################
+# IDEs
+#####################################
+.vscode/
+.idea/
+
+#####################################
+# ENV / LOCAL CONFIG
+#####################################
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+#####################################
+# DATABASE
+#####################################
+*.db
+*.sqlite
+*.sqlite3
+
+#####################################
+# DOCKER
+#####################################
+docker-compose.override.yml
+
+#####################################
+# BUILD OUTPUTS (OPTIONAL)
+#####################################
+*.apk
+*.ipa
+*.aab
+
+# Local secrets and credentials
+*.pfx
+*.key
+*.pem
